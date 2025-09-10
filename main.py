@@ -9,6 +9,5 @@ def weight_convert():
       weight_kg = weight_pd / 2.2046
       print(f"对应的公制重量为{weight_kg:.3f}公斤")
     else:
-       print("输入格式错误，请输入带单位的重量:")
-       weight_convert() 
+       print("输入格式错误，请输入带单位的重量:")     
 weight_convert()
